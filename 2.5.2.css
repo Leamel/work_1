@@ -1,0 +1,25 @@
+ul {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    font-size: 25px;
+}
+.menu__item:hover {
+    background-color: blue;
+    -webkit-text-fill-color: white;
+}
+.menu__item {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-left: -1px;
+}
+.menu__item:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu__item:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
